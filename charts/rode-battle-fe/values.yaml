@@ -6,10 +6,10 @@ replicaCount: 2
 
 image:
   repository: harbor.japao.dev/fcode_rode/rode-battle-fe
-  tag: v1.0.{{ .Values.buildNumber }}
+  tag: v1.0.25
   pullPolicy: Always  
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: v1.0.25
 
 imagePullSecrets: []
 nameOverride: ""
